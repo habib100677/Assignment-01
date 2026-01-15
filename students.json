@@ -1,0 +1,30 @@
+[
+    {
+        "id": "6965ffebeb8e2",
+        "name": "MD HABIB ULLAH",
+        "email": "habib@gmail.com",
+        "phone": "+8801818262515",
+        "status": "Active"
+    },
+    {
+        "id": "696600d401ce0",
+        "name": "JABIR",
+        "email": "jabir@gmail.com",
+        "phone": "+8801725361447",
+        "status": "Active"
+    },
+    {
+        "id": "696609fe5e790",
+        "name": "Sofiq",
+        "email": "sofiq@gmail.com",
+        "phone": "01685581231",
+        "status": "On Leave"
+    },
+    {
+        "name": "New Student",
+        "email": "std@gmail.com",
+        "phone": "+8801234567891",
+        "status": "Inactive",
+        "id": 696610
+    }
+]
