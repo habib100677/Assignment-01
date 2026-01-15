@@ -23,17 +23,17 @@ class StudentManager
         file_put_contents($this->file, json_encode($data, JSON_PRETTY_PRINT));
     }
     //Generate ID
-    //   private function generateId()
-    // {
-    //     $students = $this->readData();
+    private function generateId()
+     {
+         $students = $this->readData();
 
-    //     if (empty($students)) {
-    //         return 1;
-    //     }
+     if (empty($students)) {
+            return 1;
+         }
 
-    //     $ids = array_column($students, 'id');
-    //     return max($ids) + 1;
-    // }
+        $ids = array_column($students, 'id');
+     return max($ids) + 1;
+    }
 
     public function getAllStudents()
     {
@@ -103,3 +103,4 @@ class StudentManager
         return "Student not found";
     }
 }
+
